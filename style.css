@@ -149,16 +149,22 @@ h6 {
 	max-width: 670px
 }
 .banner-btn {
-	background: #ab2f52;
+	background: rgba(171, 47, 82, 0.82);
 	padding: 12px 45px;
 	font-size: 15px;
 	border-radius: 30px;
 	margin-top: 30px;
 }
-.banner-btn:hover {
+button:hover {
 	background: #ffffff;
-	color:#ab2f52;
+	color:rgba(171, 47, 82, 0.82);
 }
+
+.banner-btn:hover {
+	background: #ab2f52 !important;
+	color:#ffffff !important;
+}
+
 .section-padding {
 	padding: 100px 0px;
 }
@@ -233,6 +239,10 @@ h6 {
 	color: #ffffff !important;
 	border-radius: 3px;
 	margin-top: 30px;
+}
+.anchor-btn:hover {
+	background: #ffaf53;
+	color: #ab2f52 !important;
 }
 .bg-grey {
 	background-color: #fafafa;
